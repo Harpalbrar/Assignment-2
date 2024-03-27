@@ -1,0 +1,90 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffc594;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffc9594;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+  background-image: url('C:\Users\harpa\Desktop\harpal image.jpg');
+  background-size: cover;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li a:hover {
+  color: #ffc594;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Styling for the Education and Work Experience sections */
+h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #000;
+}
+
+ul li {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styling for the Skills section */
+h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #000;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+ul li {
+  font-size: 16px;
+  color: #333;
+}
